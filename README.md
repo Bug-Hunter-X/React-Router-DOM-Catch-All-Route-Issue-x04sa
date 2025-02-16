@@ -1,0 +1,1 @@
+This repository demonstrates a common issue with React Router DOM's catch-all route (`/*`). When placed before other, more specific routes, it prevents them from ever being matched.  The solution shows how to correctly order routes to ensure that more specific routes are checked before the catch-all.
